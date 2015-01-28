@@ -134,7 +134,7 @@
              // Moving to next Viewcontroller
              
              NSString * storyboardName = @"Main";
-             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: [NSBundle mainBundle]];
              UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"find"];
              [self presentViewController:vc animated:YES completion:nil];
              

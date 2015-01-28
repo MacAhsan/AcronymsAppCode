@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="4" y="350"/>
         </scene>
-        <!--find-->
+        <!--Meaning View Controller-->
         <scene sceneID="Vcy-BV-9Sq">
             <objects>
-                <viewController storyboardIdentifier="find" title="find" id="ynG-ef-htw" customClass="MeaningViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="find" modalPresentationStyle="currentContext" id="ynG-ef-htw" customClass="MeaningViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QCT-ry-37W"/>
                         <viewControllerLayoutGuide type="bottom" id="DsH-xI-xaO"/>
@@ -110,7 +110,7 @@
                     <navigationItem key="navigationItem" id="GMr-Lg-Yil"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="view" destination="qxh-tf-yzF" id="HkE-h9-Rok"/>
+                        <outlet property="view" destination="qxh-tf-yzF" id="Aa7-9i-RY9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQv-3y-voN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -119,6 +119,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg.png" width="1200" height="800"/>
+        <image name="bg.png" width="800" height="1200"/>
     </resources>
 </document>
